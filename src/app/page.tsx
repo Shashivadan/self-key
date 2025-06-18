@@ -1,10 +1,5 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import Landing from "@/components/landing";
 
 export default function HomePage() {
-  return (
-    <main className="">
-      <Button>Button</Button>
-    </main>
-  );
+  return <Landing />;
 }
